@@ -1,0 +1,31 @@
+﻿# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.db
+flask_session/
+
+# Project specific
+demo/
+example_images/
+cms_deploy.zip
+instance/
+.env
+
+# SQL scripts (optional - exclude if you don't want them)
+# sql_scripts/
+
+# Docs
+Project Instructions.pdf
+Project Overview.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
