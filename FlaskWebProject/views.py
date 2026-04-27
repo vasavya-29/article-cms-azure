@@ -15,7 +15,7 @@ import msal
 import uuid
 
 # Local image serving instead of Azure Blob URL
-imageSourceUrl = '/static/images/uploads/'
+imageSourceUrl = 'https://cmsvasavyasa.blob.core.windows.net/images/'
 
 @app.route('/')
 @app.route('/home')
